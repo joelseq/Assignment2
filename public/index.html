@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="assignmentApp">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <base href="/">
+    <title>Assignment 2</title>
+
+    <!-- Load Angular Stuff -->
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="lib/angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="lib/angular-aria/angular-aria.min.js"></script>
+    <script type="text/javascript" src="lib/angular-material/angular-material.min.js"></script>
+    <script type="text/javascript" src="lib/angular-socket-io/socket.min.js"></script>
+    <script type="text/javascript" src="lib/angular-material-icons/angular-material-icons.min.js"></script>
+    <script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="utils.js"></script>
+    <script src="controllers.js"></script>
+    <script src="services.js"></script>
+    <script src="routes.js"></script>
+
+
+    <link rel="stylesheet" href="lib/animate.css/animate.min.css">
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+  <body>
+    <div class="header">
+      <h4>SocketIO Chat application</h4>
+    </div>
+
+
+    <ui-view></ui-view>
+  </body>
+</html>
