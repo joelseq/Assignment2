@@ -3,5 +3,6 @@ const assignmentApp = angular.module('assignmentApp', [
   'ngMaterial',
   'ngAnimate',
   'ngMdIcons',
-  'btford.socket-io'
+  'btford.socket-io',
+  'mgcrea.ngStrap'
 ]);
